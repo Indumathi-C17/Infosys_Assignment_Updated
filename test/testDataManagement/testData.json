@@ -1,0 +1,74 @@
+{
+  "validData": {
+    "current_age": 40,
+    "retirement_age": 68,
+    "current_annual_income": 100000,
+    "spouse_annual_income": 75000,
+    "current_retirement_savings": 500000,
+    "current_retirement_contribution": 10,
+    "annual_retirement_contribution_increase": 2,
+    "social_security_income": "yes",
+    "relationship_status": "Married",
+    "social_security_override": 4000
+  },
+
+  "validDefaultValues": {
+    "current_age": 35,
+    "retirement_age": 68,
+    "current_annual_income": 100000,
+    "spouse_annual_income": 75000,
+    "current_retirement_savings": 500000,
+    "current_retirement_contribution": 10,
+    "annual_retirement_contribution_increase": 2,
+    "social_security_income": "No",
+    "relationship_status": "Married",
+    "social_security_override": 4000,
+    "additional_other_income": 500,
+    "number_of_years_retirement_needs_to_last": 20, 
+    "post_retirement_income_increase_with_inflation": "Yes",
+    "expected_inflation_rate": 3,
+    "percent_of_final_annual_income_desired": 75,
+    "pre_retirement_investment_return": 8,
+    "post_retirement_investment_return": 5
+  },
+
+  "invalidData": {
+    "current_age": "abc",
+    "retirement_age": "def",
+    "current_annual_income": "ghi",
+    "spouse_annual_income": "jkl",
+    "current_retirement_savings": "mno",
+    "current_retirement_contribution": "pqr",
+    "annual_retirement_contribution_increase": "stu",
+    "social_security_income": "No",
+    "relationship_status": "yz!",
+    "social_security_override": "@#$",
+    "additional_other_income": "%^&",
+    "number_of_years_retirement_needs_to_last": "*()",
+    "post_retirement_income_increase_with_inflation": "$$$$",
+    "expected_inflation_rate": "%%%",
+    "percent_of_final_annual_income_desired": "&&&",
+    "pre_retirement_investment_return": "***",
+    "post_retirement_investment_return": "###"
+  },
+
+    "invalidAge": {
+      "current_age": 105,
+      "retirement_age": 68,
+      "current_annual_income": 100000,
+      "spouse_annual_income": 75000,
+      "current_retirement_savings": 500000,
+      "current_retirement_contribution": 10,
+      "annual_retirement_contribution_increase": 2,
+      "social_security_income": "No",
+      "relationship_status": "Married",
+      "social_security_override": 4000,
+      "additional_other_income": 500,
+      "number_of_years_retirement_needs_to_last": 20,
+      "post_retirement_income_increase_with_inflation": "Yes",
+      "expected_inflation_rate": 3,
+      "percent_of_final_annual_income_desired": 75,
+      "pre_retirement_investment_return": 8,
+      "post_retirement_investment_return": 5
+    }
+}
